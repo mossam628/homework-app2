@@ -1,9 +1,16 @@
 .main
   .main__contents
-    仮置き
+    .main__contents__content
+      .main__contents__content__text
+        仮置き
+      .main__contents__content__box
+        .main__contents__content__box--name
+          aaa
+        .main__contents__content__box--daytime
+          2020/02/11 17:44
   .main__form
-    %form
-      %input{type: "text",class: "main__form--input",placeholder: "文字を入力"}
-      %input{type: "submit",class: "main__form--submit",value: "投稿する"}
+    %form.main__form__send
+      %input{type: "text",class: "main__form__send--input",placeholder: "文字を入力"}
+      %input{type: "submit",class: "main__form__send--submit",value: "投稿する"}
   .main__footer
     Homework App 2020
